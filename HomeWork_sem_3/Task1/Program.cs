@@ -1,6 +1,5 @@
 ﻿Console.WriteLine("Введите пятизначное число: ");
-int num = Convert.ToInt32(Console.ReadLine());
-string arr = num.ToString();
+string arr = Console.ReadLine();
 if (arr[0] == arr[arr.Length - 1] && arr[1] == arr[arr.Length -2])
 {
     Console.WriteLine("Введённое число является палиндромом");
